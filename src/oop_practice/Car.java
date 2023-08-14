@@ -9,6 +9,7 @@ class Vehical{
 }
 
 public class Car extends Vehical {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +19,10 @@ public class Car extends Vehical {
 		System.out.println(myCar.brand);
 		
 		myCar.honk();
+	}
+	
+	public static void speed() {
+		System.out.println("Go...");
 	}
 
 }
