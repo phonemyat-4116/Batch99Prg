@@ -17,6 +17,7 @@ public class Person {
 		this.name = n;
 		this.age = a;
 		
+		
 	}
 
 	public static void main(String[] args) {
